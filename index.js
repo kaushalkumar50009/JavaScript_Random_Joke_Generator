@@ -31,9 +31,3 @@ getJoke();
 //       console.log(data);
 //     });
 // })();
-
-function kau(bab) {
-  return a
-}
-
-kau(23)
