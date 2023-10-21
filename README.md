@@ -1,6 +1,4 @@
-Certainly! Here's a README for your Random Joke Generator HTML and JavaScript code:
-
----
+# https://random-joke-generator-seven.vercel.app/
 
 # Random Joke Generator
 
