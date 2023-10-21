@@ -1,67 +1,20 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #ffffff;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
 }
-
-.container {
-    background-color: #010d1cc4;
-height: 100vh;;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    gap: 6.25rem;
-}
-
-.content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1.25rem;
-    gap: 3.25rem;
-    width: 50%;
-    height: max-content;
-    border-radius: .625rem;
-    background-color:  rgba(255, 255, 255, 0.3);;
-    backdrop-filter: blur(6px);
-
-
-
-}
-
-.img{
-    font-size: 3.125rem;
-}
-
-.random_joke{
-    text-align: center;
-  font-size: 20px;
-
-}
-
-button {
-  color: #fff;
-  padding: 10px 20px;
-  outline: transparent;
-  border-radius: 10px;
-  background-color: #1242d0bd;
-  border: transparent;
-  font-size: 15px;
-  cursor: pointer;
-} */
 
 body {
   font-family: "Arial", sans-serif;
-  background-color: #f4f4f4;
   margin: 0;
   padding: 0;
+  background: url("./air-494020_1280.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -69,15 +22,16 @@ body {
   margin: auto;
   overflow: hidden;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
   padding: 20px;
-  background-color: white;
+  background-color: #00cfff21;
+  backdrop-filter: blur(3px);
+  border: 2px solid #ffff;
+  border-radius: 75px;
 }
 
 .tittle h1 {
   text-align: center;
   padding: 20px 0;
-  color: #333;
 }
 
 .content {
